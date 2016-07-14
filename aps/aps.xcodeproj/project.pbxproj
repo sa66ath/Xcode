@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D80FD63152D6AD300E94F61 /* fx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D80FD5A152D6AD300E94F61 /* fx.cpp */; };
+		6D80FD64152D6AD300E94F61 /* fs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D80FD60152D6AD300E94F61 /* fs.cpp */; };
+		6D80FD65152D6AD300E94F61 /* param.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D80FD62152D6AD300E94F61 /* param.cpp */; };
+		6D80FD74152D6ADF00E94F61 /* audioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D80FD6A152D6ADF00E94F61 /* audioeffect.cpp */; };
+		6D80FD75152D6ADF00E94F61 /* audioeffectx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D80FD6C152D6ADF00E94F61 /* audioeffectx.cpp */; };
+		6D80FD76152D6ADF00E94F61 /* vstplugmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D80FD6E152D6ADF00E94F61 /* vstplugmain.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		508817D409F0C9AD0071BF1A /* aps.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aps.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		508817D609F0C9AD0071BF1A /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D80FD58152D6AD300E94F61 /* freq.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = freq.h; sourceTree = "<group>"; };
+		6D80FD59152D6AD300E94F61 /* fx.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = fx.h; sourceTree = "<group>"; };
+		6D80FD5A152D6AD300E94F61 /* fx.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = fx.cpp; sourceTree = "<group>"; };
+		6D80FD5B152D6AD300E94F61 /* bosc.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = bosc.h; sourceTree = "<group>"; };
+		6D80FD5C152D6AD300E94F61 /* fs.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = fs.h; sourceTree = "<group>"; };
+		6D80FD5D152D6AD300E94F61 /* bpitch_shift.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = bpitch_shift.h; sourceTree = "<group>"; };
+		6D80FD5E152D6AD300E94F61 /* vst_param.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = vst_param.h; sourceTree = "<group>"; };
+		6D80FD5F152D6AD300E94F61 /* ringbuff.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = ringbuff.h; sourceTree = "<group>"; };
+		6D80FD60152D6AD300E94F61 /* fs.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = fs.cpp; sourceTree = "<group>"; };
+		6D80FD61152D6AD300E94F61 /* param.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = param.h; sourceTree = "<group>"; };
+		6D80FD62152D6AD300E94F61 /* param.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = param.cpp; sourceTree = "<group>"; };
+		6D80FD69152D6ADF00E94F61 /* aeffeditor.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = aeffeditor.h; sourceTree = "<group>"; };
+		6D80FD6A152D6ADF00E94F61 /* audioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffect.cpp; sourceTree = "<group>"; };
+		6D80FD6B152D6ADF00E94F61 /* audioeffect.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = audioeffect.h; sourceTree = "<group>"; };
+		6D80FD6C152D6ADF00E94F61 /* audioeffectx.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = audioeffectx.cpp; sourceTree = "<group>"; };
+		6D80FD6D152D6ADF00E94F61 /* audioeffectx.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = audioeffectx.h; sourceTree = "<group>"; };
+		6D80FD6E152D6ADF00E94F61 /* vstplugmain.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = vstplugmain.cpp; sourceTree = "<group>"; };
+		6D80FD71152D6ADF00E94F61 /* aeffect.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = aeffect.h; sourceTree = "<group>"; };
+		6D80FD72152D6ADF00E94F61 /* aeffectx.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = aeffectx.h; sourceTree = "<group>"; };
+		6D80FD73152D6ADF00E94F61 /* vstfxstore.h */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.c.h; path = vstfxstore.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				508817E509F0C9EF0071BF1A /* Configuration Files */,
+				508817D609F0C9AD0071BF1A /* Info.plist */,
+				508817F509F0CAB50071BF1A /* Sources */,
+				5088180609F0CDD00071BF1A /* External Frameworks and Libraries */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				508817D409F0C9AD0071BF1A /* aps.vst */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		508817E509F0C9EF0071BF1A /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+		508817F509F0CAB50071BF1A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6D80FD58152D6AD300E94F61 /* freq.h */,
+				6D80FD59152D6AD300E94F61 /* fx.h */,
+				6D80FD5A152D6AD300E94F61 /* fx.cpp */,
+				6D80FD5B152D6AD300E94F61 /* bosc.h */,
+				6D80FD5C152D6AD300E94F61 /* fs.h */,
+				6D80FD5D152D6AD300E94F61 /* bpitch_shift.h */,
+				6D80FD5E152D6AD300E94F61 /* vst_param.h */,
+				6D80FD5F152D6AD300E94F61 /* ringbuff.h */,
+				6D80FD60152D6AD300E94F61 /* fs.cpp */,
+				6D80FD61152D6AD300E94F61 /* param.h */,
+				6D80FD62152D6AD300E94F61 /* param.cpp */,
+				6D80FD66152D6ADF00E94F61 /* public.sdk */,
+				6D80FD6F152D6ADF00E94F61 /* pluginterfaces */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		5088180609F0CDD00071BF1A /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		6D80FD66152D6ADF00E94F61 /* public.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				6D80FD67152D6ADF00E94F61 /* source */,
+			);
+			path = public.sdk;
+			sourceTree = "<group>";
+		};
+		6D80FD67152D6ADF00E94F61 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				6D80FD68152D6ADF00E94F61 /* vst2.x */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		6D80FD68152D6ADF00E94F61 /* vst2.x */ = {
+			isa = PBXGroup;
+			children = (
+				6D80FD69152D6ADF00E94F61 /* aeffeditor.h */,
+				6D80FD6A152D6ADF00E94F61 /* audioeffect.cpp */,
+				6D80FD6B152D6ADF00E94F61 /* audioeffect.h */,
+				6D80FD6C152D6ADF00E94F61 /* audioeffectx.cpp */,
+				6D80FD6D152D6ADF00E94F61 /* audioeffectx.h */,
+				6D80FD6E152D6ADF00E94F61 /* vstplugmain.cpp */,
+			);
+			path = vst2.x;
+			sourceTree = "<group>";
+		};
+		6D80FD6F152D6ADF00E94F61 /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6D80FD70152D6ADF00E94F61 /* vst2.x */,
+			);
+			path = pluginterfaces;
+			sourceTree = "<group>";
+		};
+		6D80FD70152D6ADF00E94F61 /* vst2.x */ = {
+			isa = PBXGroup;
+			children = (
+				6D80FD71152D6ADF00E94F61 /* aeffect.h */,
+				6D80FD72152D6ADF00E94F61 /* aeffectx.h */,
+				6D80FD73152D6ADF00E94F61 /* vstfxstore.h */,
+			);
+			path = vst2.x;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* aps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "aps" */;
+			buildPhases = (
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aps;
+			productName = aps;
+			productReference = 508817D409F0C9AD0071BF1A /* aps.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "aps" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* aps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D80FD63152D6AD300E94F61 /* fx.cpp in Sources */,
+				6D80FD64152D6AD300E94F61 /* fs.cpp in Sources */,
+				6D80FD65152D6AD300E94F61 /* param.cpp in Sources */,
+				6D80FD74152D6ADF00E94F61 /* audioeffect.cpp in Sources */,
+				6D80FD75152D6ADF00E94F61 /* audioeffectx.cpp in Sources */,
+				6D80FD76152D6ADF00E94F61 /* vstplugmain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		508817C709F0C9740071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+		508817D809F0C9AE0071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = Info.plist;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				PRODUCT_NAME = aps;
+				SDKROOT = macosx10.6;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				WRAPPER_EXTENSION = vst;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		508817D909F0C9AE0071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ONLY_ACTIVE_ARCH_PRE_XCODE_3_1)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)";
+				INFOPLIST_FILE = Info.plist;
+				ONLY_ACTIVE_ARCH_PRE_XCODE_3_1 = "$(NATIVE_ARCH)";
+				PRODUCT_NAME = aps;
+				SDKROOT = macosx10.6;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "aps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* Debug */,
+				508817C709F0C9740071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "aps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* Debug */,
+				508817D909F0C9AE0071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}
